@@ -5,6 +5,7 @@ import AboutPage from '@/components/AboutPage'
 import FruitPage from '@/components/FruitPage'
 import CounterPage from '@/components/CounterPage'
 import RealtimeEcho from '@/components/RealtimeEcho'
+import BackgroundColor from '@/components/BackgroundColor'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/realtime-echo',
       name: 'RealtimeEcho',
       component: RealtimeEcho
+    },
+    {
+      path: '/bg-color',
+      name: 'BackgroundColor',
+      component: BackgroundColor
     }
   ]
 })
