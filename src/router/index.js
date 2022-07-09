@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import AboutPage from '@/components/AboutPage'
 import FruitPage from '@/components/FruitPage'
 import CounterPage from '@/components/CounterPage'
+import RealtimeEcho from '@/components/RealtimeEcho'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/counter',
       name: 'CounterPage',
       component: CounterPage
+    },
+    {
+      path: '/realtime-echo',
+      name: 'RealtimeEcho',
+      component: RealtimeEcho
     }
   ]
 })
