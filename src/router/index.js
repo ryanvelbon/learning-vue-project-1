@@ -6,6 +6,7 @@ import FruitPage from '@/components/FruitPage'
 import CounterPage from '@/components/CounterPage'
 import RealtimeEcho from '@/components/RealtimeEcho'
 import BackgroundColor from '@/components/BackgroundColor'
+import ReverseMsg from '@/components/ReverseMsg'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/bg-color',
       name: 'BackgroundColor',
       component: BackgroundColor
+    },
+    {
+      path: '/reverse-message',
+      name: 'ReverseMsg',
+      component: ReverseMsg
     }
   ]
 })
