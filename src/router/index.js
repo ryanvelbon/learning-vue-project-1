@@ -7,6 +7,7 @@ import CounterPage from '@/components/CounterPage'
 import RealtimeEcho from '@/components/RealtimeEcho'
 import BackgroundColor from '@/components/BackgroundColor'
 import ReverseMsg from '@/components/ReverseMsg'
+import TextFormat from '@/components/TextFormat'
 
 Vue.use(Router)
 
@@ -46,6 +47,11 @@ export default new Router({
       path: '/reverse-message',
       name: 'ReverseMsg',
       component: ReverseMsg
+    },
+    {
+      path: '/text-format',
+      name: 'TextFormat',
+      component: TextFormat
     }
   ]
 })
