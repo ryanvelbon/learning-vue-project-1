@@ -8,6 +8,7 @@ import RealtimeEcho from '@/components/RealtimeEcho'
 import BackgroundColor from '@/components/BackgroundColor'
 import ReverseMsg from '@/components/ReverseMsg'
 import TextFormat from '@/components/TextFormat'
+import Stopwatch1 from '@/components/Stopwatch1'
 
 Vue.use(Router)
 
@@ -52,6 +53,11 @@ export default new Router({
       path: '/text-format',
       name: 'TextFormat',
       component: TextFormat
+    },
+    {
+      path: '/stopwatch-1',
+      name: 'Stopwatch1',
+      component: Stopwatch1
     }
   ]
 })
