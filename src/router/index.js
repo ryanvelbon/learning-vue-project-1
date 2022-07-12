@@ -10,6 +10,7 @@ import ReverseMsg from '@/components/ReverseMsg'
 import TextFormat from '@/components/TextFormat'
 import Stopwatch1 from '@/components/Stopwatch1'
 import Stopwatch2 from '@/components/Stopwatch2'
+import Timer from '@/components/Timer'
 
 Vue.use(Router)
 
@@ -64,6 +65,11 @@ export default new Router({
       path: '/stopwatch-2',
       name: 'Stopwatch2',
       component: Stopwatch2
+    },
+    {
+      path: '/timer',
+      name: 'Timer',
+      component: Timer
     }
   ]
 })
